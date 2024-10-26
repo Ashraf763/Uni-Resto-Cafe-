@@ -122,12 +122,14 @@ const MainSection = () => {
     const {status} = apiResponse
 
     switch (status) {
+      case apiStatusConstants.inProgress:
+        return renderLoadingView()
       case apiStatusConstants.success:
         return renderSuccessView()
       case apiStatusConstants.failure:
         return renderFailureView()
       default:
-        return renderLoadingView()
+        return null
     }
   }
 

@@ -1,0 +1,48 @@
+.categories-container {
+  padding: 6px 6px 0 6px;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow-x: auto;
+  box-sizing: border-box;
+  white-space: nowrap; /* Prevents line breaks */
+  scrollbar-width: none;
+  margin: 10px 10px 0 10px;
+}
+
+.category {
+  margin-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+  padding: 10px 15px;
+  cursor: pointer;
+  list-style-type: none;
+  font-size: medium;
+  width: 190px;
+  max-width: 220px;
+}
+
+.active {
+  color: rgb(241, 74, 74);
+  border-bottom: 2px solid rgb(227, 74, 74);
+  border-radius: 2px;
+  font-weight: 700;
+}
+
+.loader-container {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dish-details-container {
+  list-style-type: none;
+  margin-top: 0;
+  padding: 10px;
+  @media (min-width: 768px) {
+    padding: 15px 30px;
+  }
+}

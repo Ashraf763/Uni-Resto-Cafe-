@@ -1,0 +1,132 @@
+.dish {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border: 0.5px solid grey;
+  border-radius: 6px;
+  padding: 8px;
+  margin: 7px 0;
+}
+
+.name {
+  font-size: medium;
+  margin-top: 0;
+}
+
+.name-container {
+  display: flex;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.currency {
+  color: rgb(84, 83, 83);
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.description {
+  color: grey;
+  font-size: small;
+}
+
+.calories {
+  color: orange;
+  font-weight: 600;
+  width: 22%;
+  margin: 0 10px;
+}
+
+.image-container {
+  width: 200px;
+  height: 200px;
+}
+
+.veg-nonveg {
+  height: 15px;
+  width: 15px;
+  margin-top: 4px;
+}
+
+.description-container {
+  padding-left: 6px;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.buttons-container {
+  width: 120px;
+  border-radius: 40px;
+  padding: 10px 15px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(26, 152, 26);
+  color: white;
+}
+
+.addto-cart-btn {
+  width: 120px;
+  font-size: medium;
+  border-radius: 40px;
+  padding: 10px 15px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(26, 152, 26);
+  color: white;
+}
+
+.addto-cart-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.button:after {
+  content: '';
+  background: #90ee90;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s;
+}
+
+.button:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+  color: white;
+  font-size: large;
+}
+
+.custm-txt {
+  color: blue;
+  font-size: small;
+}
+
+.not-available {
+  color: rgb(208, 43, 43);
+}
+
+.btn-color {
+  color: white;
+  font-size: small;
+}

@@ -1,0 +1,124 @@
+.cart-list-items-container {
+  list-style-type: none;
+  padding: 8px;
+  background-color: white;
+  margin-bottom: 10px;
+  width: 100%;
+  border-radius: 10px;
+  @media (min-width: 768px) {
+    width: 48%;
+    margin: 15px;
+    height: max-content;
+  }
+}
+
+.one {
+  width: 100%;
+}
+
+.cart-container {
+  height: 90vh;
+  width: 100vw;
+  background-color: aliceblue;
+  padding: 15px;
+  @media (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.cart-description {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.cart-dish-image {
+  height: 70px;
+  width: 70px;
+}
+
+.cart-dish {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  color: green;
+  border: 1px solid black;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button {
+  color: green;
+}
+
+.det-container {
+  width: 60%;
+  display: flex;
+  align-items: center;
+}
+
+.description-container-2 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  padding-left: 15px;
+}
+
+.summary-container {
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  @media (min-width: 768px) {
+    width: 48%;
+    margin: 15px;
+    height: max-content;
+  }
+}
+
+.blue-txt {
+  color: blue;
+  font-size: small;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.amount {
+  font-weight: bold;
+  font-size: large;
+}
+
+.hr {
+  border: 1px solid grey;
+  border-style: dashed;
+}
+
+.text {
+  font-size: medium;
+  font-weight: 500;
+}
+
+.pay-btn {
+  background-color: rgb(219, 72, 72);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.empty-cart-container {
+  height: 90vh;
+  width: 100vw;
+  background-color: aliceblue;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
